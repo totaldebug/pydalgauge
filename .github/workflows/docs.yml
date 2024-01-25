@@ -1,0 +1,23 @@
+---
+name: 📚 Update Docs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+  workflow_dispatch:
+
+jobs:
+  update-docs:
+    name: Update Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Getting your configuration from GitHub
+        uses: actions/checkout@v2
+
+      - name: Update documentation
+        uses: totaldebug/sphinx-publish-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
