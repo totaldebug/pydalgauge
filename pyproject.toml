@@ -9,8 +9,8 @@ version = "0.1.0"
 description = "A Python wrapper for the Tidal Gauge API from the UK Environment Agency"
 readme = ".github/README.rst"
 authors = ["marksie1988 <marksie1988@noreply.github.com>"]
-repository = "https://github.com/totaldebug/Tidal Gauge API"
-homepage = "https://github.com/totaldebug/Tidal Gauge API"
+repository = "https://github.com/totaldebug/pydalgauge"
+homepage = "https://github.com/totaldebug/pydalgauge"
 
 # Keywords description https://python-poetry.org/docs/pyproject/#keywords
 keywords = [ "tidal", "gauge", "environment", "agency" ]
